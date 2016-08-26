@@ -1,8 +1,15 @@
+nvidia-docker (1.0.0~rc.3-1-cruise1) trusty; urgency=low
+
+  * Restore Go 1.5
+  * Update variable name as suggested by https://github.com/NVIDIA/nvidia-docker/issues/123
+
+ -- Adrian Macneil <adrian@getcruise.com>  Fri, 26 Aug 2016 05:00:00 +0000
+
 nvidia-docker (1.0.0~rc.3-1-cruise0) trusty; urgency=low
 
   * Upgrade to Go 1.6
 
- -- Adrian Macneil <adrian@getcruise.com>  Fri, 24 Aug 2016 06:00:00 +0000
+ -- Adrian Macneil <adrian@getcruise.com>  Wed, 24 Aug 2016 06:00:00 +0000
 
 nvidia-docker (1.0.0~rc.3-1) trusty; urgency=low
 

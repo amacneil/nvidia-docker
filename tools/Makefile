@@ -61,7 +61,7 @@ uninstall:
 
 clean:
 	-@$(DOCKER_IMAGES) | xargs $(DOCKER_RMI) 2> /dev/null
-	-@$(DOCKER_RMI) golang:1.6 ubuntu:14.04 centos:7 2> /dev/null
+	-@$(DOCKER_RMI) golang:1.5 ubuntu:14.04 centos:7 2> /dev/null
 
 distclean:
 	@rm -rf $(BIN_DIR)
